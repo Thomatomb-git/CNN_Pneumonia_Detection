@@ -1,7 +1,15 @@
-models/
-data/test/
-data/train/
-data/val/
+# Model weights (large binary files)
+models/*.keras
+models/*.h5
+models/*.weights.h5
+
+# Dataset images (large files, not versioned in git)
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.JPEG
+data/**/*.PNG
+data/**/*.JPG
 .vscode/
 CLAUDE.md
 __pycache__/
