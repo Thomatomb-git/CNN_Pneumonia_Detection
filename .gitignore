@@ -1,0 +1,8 @@
+models/
+data/test/
+data/train/
+data/val/
+.vscode/
+CLAUDE.md
+__pycache__/
+*.pyc
